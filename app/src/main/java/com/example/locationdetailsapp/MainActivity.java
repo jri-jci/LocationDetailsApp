@@ -28,6 +28,7 @@ import java.util.Locale;
 public class MainActivity extends AppCompatActivity {
     private TextView txtLat, txtLang;
 	private String name = "Ilayaraja";
+	private String name1 = "Ilayaraja1";
     Button btnLoc;
     private FusedLocationProviderClient locProvClient;
     @RequiresApi(api = Build.VERSION_CODES.M)
